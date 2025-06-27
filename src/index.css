@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+   font-family: "Poppins", sans-serif;
+
+
+}
+h1,h2,h3,h4,h5{
+  color: #ddd9f0;
+ font-weight: 500;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+/* utility classes */
+.container{
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+.text-primary{
+  color: #b4943c;
+}
+.text-secodary{
+  color: #ddd9f0;
+}
+/* header start */
+#home{
+  background-color:#353590;
+  height: 100vh;
+}
+#home .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 2rem;
+  padding:  3rem ;
+
+}
+#home .navbar h1{
+  font-size: 32px ;
+}
+#home .navbar .links a{
+  margin-right: 25px;
+  font-size: 25px;
+
+}
+#home .navbar .links a:hover{
+  color: #100358;
+  background-color: #5151d8;
+  border-radius: 10px;
+}
+#home .container{
+  padding: 5rem 0;
+}
+#home .container h3{
+  font-size: 30px;
+  margin: 30px 0;
+}
+#home .container p{
+  font-size: 25px;
+  line-height: 1.7px;
+  margin-bottom: 50px;
+  
+}
+#home .container .social{
+ margin: 20px 0;
+}
+#home .container .social a{
+    margin-right: 10px;
+}
+#home .container .social a svg{
+ font-size: 35px;
+}
+#home .container .btns{
+  display: flex;
+  margin: 50px 0;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+#home .container .btns .btn{
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+#home .container .btns .btn-red{
+  background-color: red;
+  color: #fff;
+
+}
+/* header end */
+/* main start */
+/* about start */
+#about{
+    background-color:#353590;
+    padding: 2rem 0;
+
+}
+#about .container h2,#services .container h2{
+  margin: 2rem 0;
+  font-size: 35px;
+}
+#about .container .row{
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:5rem;
+  justify-content: space-between;
+}
+#about .container .row .col-1 p{
+    color: #ddd9f0;
+  font-size: 25px;
+  margin: 2rem 5rem ;
+
+}
+#about .container .row .col-2 ul li{
+    color: #ddd9f0;
+  margin-top: 20px;
+  font-size: 25px;
+  text-align: left;
+
+}
+
+/* about end */
+/* services start */
+#services{
+  background-color:#353590;
+  padding: 2rem 0;
+
+
+}
+#services .container .services .product{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  margin-top: 2rem;
+}
+#services .container .services .product .content{
+  padding: 30px;
+  border: 2px solid #000;
+
+}
+#services .container .services .product .content img{
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+}
+#services .container .services .product .content h3{
+  font-size: 30px;
+  margin-top: 20px;
+}
+#services .container .services .product .content p{
+  color: #ddd9f0;
+  font-size: 25px;
+  margin-top: 15px;
+}
+/* services end */
+
+/* contact start */
+#contact{
+  margin: 3rem 0;
+  padding: 2rm 0;
+}
+#contact .container h2{
+  font-size: 35px;
+  margin-bottom:2rem ;
+
+}
+#contact .container .content{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
+#contact .container .content img{
+  width: 100%;
+  height: 80vh;
+  
+}
+#contact .container .content .form form input{
+  width: 100%;
+  height: 40px;
+  margin-top: 2rem;
+  font-size: 23px;
+}
+#contact .container .content .form form textarea{
+  width: 100%;
+  height: 250px;
+  margin-top: 2rem;
+  font-size: 28px;
+}
+#contact .container .content .form form button{
+  color: #5151d8;
+  width: 100%;
+  height: 40px;
+  margin-top: 10;
+  font-size: 28px;
+  border-radius: 20px;
+  border: #5151d8 solid 1px;
+  transition: all ease 0.4s;
+} 
+#contact .container .content .form form button:hover{
+  background-color: #5151d8;
+  color: #fff;
+}
+/* contact end */
+/* main end */
+/* footer start*/
+.footer{
+  padding: 1rem 0;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 20px;
+}
+.footer h4{
+  margin: 1rem 0;
+
+}
+ .footer.social{
+ margin: 2rem 0;
+}
+.footer .social a{
+    margin-right: 10px;
+}
+.footer .social a svg{
+ font-size: 35px;
+}
+.footer p{
+  margin-top: 20px;
+}
+/* footer end*/

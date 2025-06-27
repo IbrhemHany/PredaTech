@@ -1,0 +1,13 @@
+├── components/
+│   └── Header.jsx
+│   └── ServiceCard.jsx
+│   └── Home.jsx
+│   └── About.jsx
+│   └── Services.jsx
+│   └── ServiceDetails.jsx
+│   └── Contact.jsx
+│   └── Footer.jsx
+├── data/
+│   └── services.json
+├── App.jsx
+├── main.jsx
