@@ -5,7 +5,7 @@ function Contact() {
         <div className="container">
             <h2>Contact US</h2>
             <div className="content">
-                <img src="public/images/download-removebg-preview.png" alt="Contact us" />
+                <img src="images/download-removebg-preview.png" alt="Contact us" />
                 <div className="form">
                     <form >
                         <input type="email" name="email" placeholder="Enter Your Email" />
